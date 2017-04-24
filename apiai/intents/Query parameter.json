@@ -1,0 +1,503 @@
+{
+  "userSays": [
+    {
+      "id": "94f17701-2188-482c-b91e-5b2100a1f0f4",
+      "data": [
+        {
+          "text": "what\u0027s the "
+        },
+        {
+          "text": "range",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d829dd3a-72e2-4a46-ba04-164145c0bd56",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "far",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        },
+        {
+          "text": " can you go"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bae7a94d-0a9a-4990-b4c4-57916d94ef42",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "charged",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        },
+        {
+          "text": " are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae948128-a254-4da7-b2e5-33cf57e08d74",
+      "data": [
+        {
+          "text": "are you "
+        },
+        {
+          "text": "locked",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "42929924-1796-4f05-a093-2562ab961215",
+      "data": [
+        {
+          "text": "is the "
+        },
+        {
+          "text": "car",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "locked",
+          "alias": "level",
+          "meta": "@level"
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "620cb0c4-b0df-4bf7-9b18-68c620ee2123",
+      "data": [
+        {
+          "text": "whats the status of the "
+        },
+        {
+          "text": "doors",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f8d9df53-0e38-4358-bfc5-cb752371c138",
+      "data": [
+        {
+          "text": "whats the "
+        },
+        {
+          "text": "charge level",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3d291f7a-afc2-4404-96f9-2f38dbc9483c",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "far",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        },
+        {
+          "text": " can you go?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8124f79c-3f7d-427c-91de-f27c578a8210",
+      "data": [
+        {
+          "text": "what\u0027s the "
+        },
+        {
+          "text": "temperature",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "835c34f4-d308-4a68-8bf3-8563852c8a2a",
+      "data": [
+        {
+          "text": "whats your "
+        },
+        {
+          "text": "range",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2f261b13-0d36-4c2e-85e1-692c43162d77",
+      "data": [
+        {
+          "text": "is the "
+        },
+        {
+          "text": "air conditioning",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on",
+          "alias": "level",
+          "meta": "@level",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3db343f5-3a1d-43ec-ad3a-a33ba3a02ef7",
+      "data": [
+        {
+          "text": "are the "
+        },
+        {
+          "text": "doors",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "unlocked",
+          "alias": "level",
+          "meta": "@level",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af75f201-6499-4ffb-96c0-22328cfb3eb5",
+      "data": [
+        {
+          "text": "is the "
+        },
+        {
+          "text": "charge port",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "open",
+          "alias": "level",
+          "meta": "@level",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e5992767-f077-4dd8-954f-023fda8a77e0",
+      "data": [
+        {
+          "text": "are you "
+        },
+        {
+          "text": "unlocked",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2896b81c-1d5c-4ca5-9487-403df52edb4a",
+      "data": [
+        {
+          "text": "are you "
+        },
+        {
+          "text": "charging",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f1c019f-fca4-4f7d-a0d0-18a80c8dc3ac",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "cold",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": " is the car?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "80fab2dd-6b68-4cd2-a9cb-f6decb0a5910",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "warm",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": " are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "071528b1-a557-4641-b3a1-06e82661a4ff",
+      "data": [
+        {
+          "text": "what\u0027s the "
+        },
+        {
+          "text": "charge level",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "3808ddd4-32a6-434a-8750-166dc7e90ac8",
+      "data": [
+        {
+          "text": "what\u0027s the "
+        },
+        {
+          "text": "status",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c6b96ba-0ab6-433a-851b-7e3dd142c27e",
+      "data": [
+        {
+          "text": "what\u0027s your "
+        },
+        {
+          "text": "charge level",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7084c033-2ee7-4e70-8055-981fdf676547",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "far",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": true
+        },
+        {
+          "text": " can I take you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49f895f3-39a5-45f1-8694-d06ca0dfc07c",
+      "data": [
+        {
+          "text": "how much "
+        },
+        {
+          "text": "juice",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": true
+        },
+        {
+          "text": " do you have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa5ddbd6-c8ef-4c08-8c71-7e03b1f54176",
+      "data": [
+        {
+          "text": "how "
+        },
+        {
+          "text": "charged",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": true
+        },
+        {
+          "text": " are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf6fbb91-f0ba-423e-9074-b0bc9b5ae687",
+      "data": [
+        {
+          "text": "what\u0027s the "
+        },
+        {
+          "text": "charge level",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5120f800-0e45-4b30-9b87-fda092030106",
+  "name": "Query parameter",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@car-parameters",
+          "name": "carParam",
+          "value": "$carParam",
+          "prompts": [
+            "What would you like to query?"
+          ]
+        },
+        {
+          "dataType": "@level",
+          "name": "level",
+          "value": "$level",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

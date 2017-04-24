@@ -1,0 +1,31 @@
+{
+  "description": "An agent for interacting with your Tesla",
+  "language": "en",
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "Tesla",
+    "project": "tesla-voice",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "endIntentIds": [
+      "96d3af7d-9f47-4283-b42f-ca0a0b20218d"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1"
+  },
+  "defaultTimezone": "Europe/London",
+  "webhook": {
+    "url": "https://your.domain.here/path",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}

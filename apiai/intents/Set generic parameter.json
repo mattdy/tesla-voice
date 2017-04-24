@@ -1,0 +1,287 @@
+{
+  "userSays": [
+    {
+      "id": "a0620cac-1834-4175-b7d5-108f3c3dc32c",
+      "data": [
+        {
+          "text": "set the "
+        },
+        {
+          "text": "temperature",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "20",
+          "alias": "temperature",
+          "meta": "@sys.temperature",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0a028afa-734e-475b-a742-7f1b8b51bf81",
+      "data": [
+        {
+          "text": "change the "
+        },
+        {
+          "text": "temperature",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "20 degrees",
+          "alias": "temperature",
+          "meta": "@sys.temperature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 5
+    },
+    {
+      "id": "03846a98-6423-4ad3-a136-7935f1fe8796",
+      "data": [
+        {
+          "text": "turn off",
+          "alias": "level",
+          "meta": "@level"
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "hvac",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "faafc9a5-5dc8-4090-992c-50bf1229ec07",
+      "data": [
+        {
+          "text": "flash",
+          "alias": "level",
+          "meta": "@level"
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "lights",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f458f24-bf9a-41b4-a360-f096d43d01d1",
+      "data": [
+        {
+          "text": "set the "
+        },
+        {
+          "text": "charge limit",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "100%",
+          "alias": "percentage",
+          "meta": "@sys.percentage",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97d756ea-5ec1-4d07-8fad-d9e1d89f1772",
+      "data": [
+        {
+          "text": "set "
+        },
+        {
+          "text": "charge limit to",
+          "alias": "carParam",
+          "meta": "@car-parameters"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "full",
+          "alias": "level",
+          "meta": "@level"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b795d846-b534-4394-bc45-c3979664ecdc",
+      "data": [
+        {
+          "text": "set the "
+        },
+        {
+          "text": "range",
+          "alias": "level",
+          "meta": "@level",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "90%",
+          "alias": "percentage",
+          "meta": "@sys.percentage",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a50e07c1-fd5d-4ab6-9246-36cc1de3933e",
+      "data": [
+        {
+          "text": "lock",
+          "alias": "level",
+          "meta": "@level",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "car",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45ad833f-8517-4ef8-aa45-385fea0b1989",
+      "data": [
+        {
+          "text": "set the "
+        },
+        {
+          "text": "hvac",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "20 degrees",
+          "alias": "temperature",
+          "meta": "@sys.temperature",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0d52af8-9041-4cac-83f7-3c25a22bb25b",
+      "data": [
+        {
+          "text": "turn the "
+        },
+        {
+          "text": "air conditioning",
+          "alias": "carParam",
+          "meta": "@car-parameters",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on",
+          "alias": "level",
+          "meta": "@level",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9999f748-5872-45dd-ac5b-c12ca96c289e",
+  "name": "Set generic parameter",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@car-parameters",
+          "name": "carParam",
+          "value": "$carParam",
+          "prompts": [
+            "What would you like me to change?"
+          ],
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@sys.temperature",
+          "name": "temperature",
+          "value": "$temperature",
+          "prompts": []
+        },
+        {
+          "dataType": "@level",
+          "name": "level",
+          "value": "$level"
+        },
+        {
+          "dataType": "@sys.percentage",
+          "name": "percentage",
+          "value": "$percentage"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

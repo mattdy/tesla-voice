@@ -1,0 +1,76 @@
+{
+  "userSays": [
+    {
+      "id": "31c78070-1199-4937-a2ff-41545f65de63",
+      "data": [
+        {
+          "text": "I\u0027m done"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e05fb041-4a0c-4d1d-a26a-15fd8ac9d32f",
+      "data": [
+        {
+          "text": "thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "04772a33-3417-4137-8461-5b246a986bc8",
+      "data": [
+        {
+          "text": "thats all"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b7e2df7-d064-44c4-9a6f-47520aee041e",
+      "data": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1dc35b73-2986-44c9-bd00-15eff1f11623",
+      "data": [
+        {
+          "text": "goodbye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "96d3af7d-9f47-4283-b42f-ca0a0b20218d",
+  "name": "Exit Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "e5ef6df9-6151-49f4-b0c0-3eb076013334",
+  "name": "level",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "1",
+      "synonyms": [
+        "full",
+        "range",
+        "locked",
+        "closed",
+        "lock",
+        "on",
+        "start",
+        "flash",
+        "honk",
+        "sound"
+      ]
+    },
+    {
+      "value": "0",
+      "synonyms": [
+        "empty",
+        "unlocked",
+        "open",
+        "unlock",
+        "off",
+        "stop"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

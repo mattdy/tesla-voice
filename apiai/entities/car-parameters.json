@@ -1,0 +1,95 @@
+{
+  "id": "a4687475-f5fc-4d85-8f97-6dd96dbefd05",
+  "name": "car-parameters",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "charge level",
+      "synonyms": [
+        "juice",
+        "charge level",
+        "charge",
+        "charged",
+        "battery",
+        "battery level"
+      ]
+    },
+    {
+      "value": "distance",
+      "synonyms": [
+        "distance",
+        "far",
+        "range"
+      ]
+    },
+    {
+      "value": "charge port",
+      "synonyms": [
+        "charge port",
+        "port",
+        "charger"
+      ]
+    },
+    {
+      "value": "charge limit",
+      "synonyms": [
+        "charge limit",
+        "limit"
+      ]
+    },
+    {
+      "value": "charge state",
+      "synonyms": [
+        "charge state",
+        "charge status",
+        "charging status",
+        "state",
+        "status",
+        "charging"
+      ]
+    },
+    {
+      "value": "temperature",
+      "synonyms": [
+        "temperature",
+        "hot",
+        "cold",
+        "warm",
+        "cool",
+        "air conditioning",
+        "heater",
+        "HVAC",
+        "air con",
+        "ac"
+      ]
+    },
+    {
+      "value": "doors",
+      "synonyms": [
+        "doors",
+        "door",
+        "car",
+        "lock",
+        "locked",
+        "unlock",
+        "unlocked"
+      ]
+    },
+    {
+      "value": "lights",
+      "synonyms": [
+        "lights",
+        "light"
+      ]
+    },
+    {
+      "value": "horn",
+      "synonyms": [
+        "horn",
+        "hooter"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}
