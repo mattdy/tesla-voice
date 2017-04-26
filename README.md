@@ -9,11 +9,17 @@ More project details, and a video of the project in action, can be found at http
 
 ## Getting started
 ### Web Server
-The web server (VoiceResponse.py) is designed to be run as a [supervisord](http://supervisord.org/) service, and will listen for requests on `/webhook` that meet the format passed by [API.AI](http://api.ai), returning an appropriately formatted response.
+The web server (`VoiceResponse.py`) is designed to be run as a [supervisord](http://supervisord.org/) service, and will listen for requests on `/webhook` that meet the format passed by [API.AI](http://api.ai), returning an appropriately formatted response.
 
 An additional file named Credentials.py is also required in the same directory, containing two variables - `TESLA_EMAIL` and `TESLA_PASSWORD`, which must match your MyTesla account
 
-For integration with Google Home, this web server must be accessible through HTTPS (HTTP requests are not allowed)
+For integration with Google Home, this web server must be accessible through HTTPS (HTTP requests are not allowed). `VoiceResponse.py` is set up to provide a HTTP server, so I used a separate [Apache](https://httpd.apache.org/) instance using ProxyPass from [mod_proxy](https://httpd.apache.org/docs/2.4/mod/mod_proxy.html):
+```
+ProxyPass /teslawebhook http://<WEB_SERVER>:7800/webhook
+<Location /teslawebhook>
+   ProxyPassReverse http://<WEB_SERVER>:7800/webhook
+</Location>
+```
 
 ### API.AI project
 Insert the URL of the above web server into `apiai/agent.json` in the appropriate place, then ZIP the entire folder and upload through the 'Export and Import' function found in an API.AI project.
